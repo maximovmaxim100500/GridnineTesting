@@ -7,5 +7,5 @@ import java.util.List;
 public interface FlightFilterService {
     List<Flight> filterDepartureToTheCurrentPointInTime(List<Flight> flights);
     List<Flight> filterArrivalDateBeforeDepartureDate(List<Flight> flights);
-    List<Flight> filterFlightsWhereTheTotalTimeSpentOnTheGroundExceedsTwoHours(List<Flight> flights);
+    List<Flight> filterFlightsWhereTimeSpentOnTheGroundMoreTwoHours(List<Flight> flights);
 }
