@@ -2,10 +2,8 @@ package com.gridnine.testing.servise;
 
 import com.gridnine.testing.FlightBuilder;
 import com.gridnine.testing.entity.Flight;
-import com.gridnine.testing.entity.Segment;
 import org.junit.jupiter.api.Test;
 
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
