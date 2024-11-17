@@ -5,7 +5,5 @@ import com.gridnine.testing.entity.Flight;
 import java.util.List;
 
 public interface FlightFilterService {
-    List<Flight> filterDepartureToTheCurrentPointInTime(List<Flight> flights);
-    List<Flight> filterArrivalDateBeforeDepartureDate(List<Flight> flights);
-    List<Flight> filterFlightsWhereTimeSpentOnTheGroundMoreTwoHours(List<Flight> flights);
+    List<Flight> flightFilter(List<Flight> flights);
 }
