@@ -5,7 +5,6 @@ import com.gridnine.testing.servise.Impl.FilterArrivalDateBeforeDepartureDate;
 import com.gridnine.testing.servise.Impl.FilterDepartureToTheCurrentPointInTime;
 import com.gridnine.testing.servise.Impl.FilterFlightsWhereTimeSpentOnTheGroundMoreTwoHours;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 public class Main {
